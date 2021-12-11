@@ -5,7 +5,7 @@ Arduinoを利用してダイパリメイク(v1.1.1)のメニューバグ状態�
 今後のアップデートでBANやアイテムの削除も無いとは言い切れないので自己責任での利用をお願いします。  
 
 # 利用方法
-auto-item-clone.iniファイルの中身をArduinoのIDEにコピペし、書き込めば利用できます。  
+auto-item-clone.inoファイルの中身をArduinoのIDEにコピペし、書き込めば利用できます。  
 [NintendoSwitchControlLibrary](https://github.com/lefmarna/NintendoSwitchControlLibrary)を利用しているので、事前に導入をしてください。
 
 Arduinoを接続する際、以下の条件を満たしている状態で接続してください
