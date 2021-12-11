@@ -6,7 +6,7 @@ Arduinoを利用してダイパリメイク(v1.1.1)のメニューバグ状態�
 
 # 利用方法
 auto-item-clone.iniファイルの中身をArduinoのIDEにコピペし、書き込めば利用できます。  
-NintendoSwitchControlLibraryを利用しているので、事前に導入をしてください。
+[NintendoSwitchControlLibrary](https://github.com/lefmarna/NintendoSwitchControlLibrary)を利用しているので、事前に導入をしてください。
 
 Arduinoを接続する際、以下の条件を満たしている状態で接続してください
 1. ボックスを開いた際、一番最初に表示されるボックスにポケモンが30匹預けられていること
@@ -14,3 +14,5 @@ Arduinoを接続する際、以下の条件を満たしている状態で接続�
 3. メニューバグ状態かつメニューのカーソルがポケモンに合っていること
 4. プレイヤーがハクタイシティのわざマシン46があった場所にいること（必須では無いですが、安定しないと思われます）
 
+# ライセンス
+[GNU General Public License v3.0](https://github.com/skuwa229/BDSP-auto-item-clone/blob/main/LICENSE)
