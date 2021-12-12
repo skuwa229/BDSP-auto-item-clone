@@ -56,13 +56,14 @@ void loop(){
 
   // 全部回収したら1枚目のboxに戻る
   pushButton(Button::B, 1500, 3);
+  delay(1000);
 
   // アイテムデータの複製を行う
   duplication();
 
   // メニューバグ状態に戻す
   pushButton(Button::B, 2000, 3);
-  delay(500);
+  delay(1000);
 }
 
 // メニューバグ状態からボックスの二重起動を行う
@@ -74,13 +75,14 @@ void prepareBox() {
   pushButton(Button::R, 1500);
 
   // せいり + メニュー表示状態へ
-  pushButton(Button::X, 1000, 5);
+  pushButton(Button::X, 1300, 5);
 
   // 手持ち一覧へ
   pushButton(Button::A, 1000);
 
   // Rでボックスを開く
   pushButton(Button::R, 1500);
+  delay(500);
 }
 
 // カーソルがあっているポケモンからアイテムを奪う
@@ -104,6 +106,6 @@ void duplication() {
   pushHat(Hat::DOWN, 200);
 
   // つよさをみる
-  pushButton(Button::A, 1000);
+  pushButton(Button::A, 1500);
 }
 
